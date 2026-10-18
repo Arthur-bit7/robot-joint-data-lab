@@ -68,14 +68,15 @@ python analyze.py
 - 选另一份 CSV，修改 `read_csv(...)` 的列名映射，保留来源和单位说明。
 - 在 README 记录你观察到的：起始误差多大、何时减小、是否有持续偏差。
 
-## 提交到 GitHub
+## 继续使用 GitHub 仓库
 
-该目录已是本地 Git 仓库。创建**私有** GitHub 仓库后，在本目录执行：
+本实验已上传到[私有 GitHub 仓库](https://github.com/Arthur-bit7/robot-joint-data-lab)。GitHub 上保存了代码、原始与处理后的 CSV、指标 JSON，以及两张 SVG 图。PNG 图可由 `python analyze.py` 在本地重新生成。
+
+当前文件夹是交付用的本地快照，Git 提交历史与 GitHub 仓库分别建立。后续要练习 `git add / commit / push`，请先通过 GitHub Desktop 或下面的命令**重新克隆**远程仓库到另一目录，然后在新克隆的目录中修改和提交：
 
 ```bash
-git remote add origin <你的仓库地址>
-git push -u origin main
+git clone https://github.com/Arthur-bit7/robot-joint-data-lab.git
 ```
 
-`results/` 中的图片和指标已作为本次可核对的运行产出提交。以后重新运行脚本后，检查 `git diff`，再提交改动。
+每次运行脚本后，用 `git diff` 查看指标和图的变化，再决定是否提交。
 
