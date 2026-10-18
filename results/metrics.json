@@ -1,0 +1,15 @@
+{
+  "source_rows_reference": 2000,
+  "source_rows_tracking_excerpt": 500,
+  "tracking_duration_s": 9.980573000000007,
+  "target_position_max_rad": 0.45,
+  "actual_position_max_rad": 1.1867062,
+  "actual_position_mean_rad": 0.04875901790000001,
+  "actual_velocity_max_abs_est_rad_s": 2.470336950707228,
+  "actual_velocity_mean_signed_est_rad_s": -0.16240237464722404,
+  "actual_velocity_mean_abs_est_rad_s": 0.34404285486820424,
+  "position_error_mean_abs_rad": 0.020624931760000003,
+  "position_error_max_abs_rad": 0.7652587499999999,
+  "position_error_rmse_rad": 0.08886312038889038
+}
+
